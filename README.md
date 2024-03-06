@@ -1,3 +1,4 @@
-## EXERCICIO 1
+## Exercícios
 
-Exercicio de ordenação de vetores
+Repositório destinado a exercícios e atividades da matéria de estrutura de dados
+
