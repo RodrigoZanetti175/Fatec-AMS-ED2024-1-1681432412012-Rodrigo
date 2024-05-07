@@ -42,7 +42,7 @@ int sort(int *ptrNotas){
   return 0;
 }
 
-int somaElementos(*ptrNotas)
+int somaElementos(int *ptrNotas)
 {
   int i;
   int soma = 0;

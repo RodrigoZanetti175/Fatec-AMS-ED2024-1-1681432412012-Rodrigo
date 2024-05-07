@@ -42,7 +42,7 @@ int sort(int *ptrNotas){
   return 0;
 }
 
-int mostraElementos(*ptrNotas)
+int mostraElementos(int *ptrNotas)
 {
   int i;
   

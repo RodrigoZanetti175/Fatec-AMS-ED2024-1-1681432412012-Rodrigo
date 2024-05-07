@@ -42,7 +42,7 @@ int sort(int *ptrNotas){
   return 0;
 }
 
-int multiplicaElementos(*ptrNotas)
+int multiplicaElementos(int *ptrNotas)
 {
   int i;
   int input;
