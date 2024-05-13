@@ -1,3 +1,12 @@
+// ------------------------------------ //
+// Fila de Hospital                     //
+//                                      //
+// Autores: Rodrigo Zanetti             //
+// Instituição: Fatec Antonio Russo     //
+// Professor: Carlos Veríssimo          //
+// Paradigma: Programação Modular       //
+// Data: 13/05/2024                     //
+// ------------------------------------ //
 
 #include <stdio.h>
 #include <stdlib.h>
