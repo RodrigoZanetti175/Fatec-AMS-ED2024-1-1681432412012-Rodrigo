@@ -4,42 +4,42 @@
 ## Códigos fornecidos
 
 ### Busca Linear
-```
-i = 1 // t
+```c
+i = 1; // t
 while(i<=n){ // tn
     if(A[i]==x) // 2tn
-        return i // t
-    i=i+1 // 2tn
+        return i; // t
+    i=i+1; // 2tn
 }
-return -1 // t
+return -1; // t
 ```
 
 ### Busca Linear em Ordem
 
-```
- i = 1 // t
+```c
+ i = 1; // t
  while(i<=n && x>=A[i]){ // 4tn
     if(A[i]==x) // 2tn
-        return i // t
-    i=i+1 // 2tn
+        return i; // t
+    i=i+1; // 2tn
  }
- return -1 // t
+ return -1; // t
 ```
 
 ### Busca Binária
-```
-esq = 1 // t
-dir = n // t
+```c
+esq = 1; // t
+dir = n; // t
 while(esq<=dir){ // tn
-    meio=floor((esq+dir)/2) // Assumindo floor() como 1t -> 4tn
+    meio=floor((esq+dir)/2); // Assumindo floor() como 1t -> 4tn
     if(A[meio]==x) // 2tn
-        return meio // t
+        return meio; // t
     else if(x>A[meio]) // 2tn
-        esq=meio+1 // 2tn
+        esq=meio+1; // 2tn
     else
-        dir=meio-1 // 2tn
+        dir=meio-1; // 2tn
 }
-return -1 // t
+return -1; // t
 ```
 
 ## Tabela de complexidade de tempo
