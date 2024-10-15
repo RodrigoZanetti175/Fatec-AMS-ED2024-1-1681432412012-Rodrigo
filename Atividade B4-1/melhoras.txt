@@ -1,0 +1,3 @@
+1- Criação de uma função específica para troca de elementos do array
+
+2- Utilização da variável de flag "troca" para sinalizar se houve troca naquela iteração, dessa forma, se não houve alteração naquela iteração, o algoritmo de ordenação é interrompido, tendo um tempo de execução menor.
